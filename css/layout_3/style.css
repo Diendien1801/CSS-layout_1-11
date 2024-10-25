@@ -1,0 +1,41 @@
+.container {
+    background-color: #f2f2f2;
+    padding: 1rem;
+}
+
+header, .item, .box, footer {
+    background-color: #c0c0c0;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 1.375rem;
+}
+
+.logo {
+    font-size: 1.2rem;
+}
+
+.item-container {
+    padding: 1rem 0;
+}
+
+.item {
+    height: 5rem;
+    line-height: 5rem;
+    padding: 0;
+}
+
+.box-container {
+    padding: 0 0 1rem 0;
+}
+
+.box {
+    height: 7rem;
+    line-height: 7rem;
+    padding: 0;
+}

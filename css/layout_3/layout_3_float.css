@@ -1,0 +1,35 @@
+header {
+    overflow: auto;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.navigation {
+    width: 80%;
+    float: right;
+}
+
+.item-container {
+    overflow: auto;
+    margin: -1.5rem;
+}
+
+.item {
+    width: calc((100% - 4 * 3rem) / 4);
+    float: left;
+    margin: 1.5rem;
+}
+
+.box-container {
+    overflow: auto;
+    margin: -0.5rem;
+}
+
+.box {
+    width: calc((100% - 3 * 1rem) / 3);
+    float: left;
+    margin: 0.5rem;
+}

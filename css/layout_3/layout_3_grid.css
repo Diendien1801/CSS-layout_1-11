@@ -1,0 +1,16 @@
+header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
