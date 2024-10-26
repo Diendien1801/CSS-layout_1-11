@@ -1,0 +1,77 @@
+body
+{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.screen
+{
+    margin: 2rem 4rem;
+}
+.header, .banner,.text-area,.box,.footer
+{
+    background-color: lightgray;
+    font-size: 20px;
+    padding: 2rem;
+    font-weight: bold;
+    
+}
+.banner,.text-area,.box,.footer
+{
+    margin-top: 1rem;
+}
+.header
+{
+    display: flex;
+
+}
+.logo
+{
+    flex: 1;
+    text-align: left;
+    margin-left: 3rem;
+}
+.nav
+{
+    flex: 1;
+    text-align: center;
+}
+.banner
+{
+    padding: 4rem;
+    text-align: center;
+}
+.text-area
+{
+    padding: 3rem;
+    text-align: center;
+}
+.box-list
+{
+    display: flex;
+    
+    
+}
+.box
+{
+
+    height: 266px;
+    display: flex;
+    width: calc(100%  /3);
+    justify-content: center;
+    text-align: center;
+}
+.box p 
+{
+    margin: auto;
+}
+.box + .box
+{
+    margin-left: 2rem;
+}
+.footer
+{
+    text-align: center;
+}

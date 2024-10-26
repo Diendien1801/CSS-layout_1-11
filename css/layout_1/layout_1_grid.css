@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.screen {
+    margin: 2rem 4rem;
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "banner banner"
+        "text-area text-area"
+        "box-list box-list"
+        "footer footer";
+    grid-gap: 1rem;
+}
+
+.header {
+    grid-area: header;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.logo {
+    text-align: left;
+    margin-left: 3rem;
+}
+
+.nav {
+    text-align: center;
+}
+
+.banner {
+    grid-area: banner;
+    background-color: lightgray;
+    padding: 4rem;
+    text-align: center;
+}
+
+.text-area {
+    grid-area: text-area;
+    background-color: lightgray;
+    padding: 3rem;
+    text-align: center;
+}
+
+.box-list {
+    grid-area: box-list;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.box {
+    background-color: lightgray;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box p {
+    margin: auto;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: lightgray;
+    padding: 2rem;
+    text-align: center;
+}
