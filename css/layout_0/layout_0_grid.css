@@ -1,4 +1,4 @@
-body{
+body {
     width: 100%;
     height: 100%;
     background-color: white;
@@ -6,59 +6,57 @@ body{
     margin: 0;
 }
 
-.top, .content, .footer{
+.top, .content, .footer {
     margin: 2rem 4rem;
 }
 
-.logo, .nav, .header, .side_bar, .body_area, .footer{
+.logo, .nav, .header, .side_bar, .body_area, .footer {
     background-color: lightgray;
     font-size: 20px;
     padding: 2rem;
     font-weight: bold;
 }
 
-.logo{
+.logo {
     font-size: 24px;
 }
 
-.top{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.top {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
 }
 
-.nav{
+.nav {
     text-align: center;
     padding: 3px 0px;
 }
 
-.header{
+.header {
     text-align: center;
     padding: 4rem;
 }
 
-.content{
-    display: flex;
-    gap: 2rem;
+.content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 10px;
     min-height: 400px;
 }
 
-.side_bar{
-    flex: 1;
+.side_bar {
     display: flex;
     align-items: center;
-    justify-content: center;    
-    /* padding: 4rem 0rem; */
+    justify-content: center;
 }
 
-.body_area{
-    flex: 3;
+.body_area {
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
-.footer{
+.footer {
     text-align: center;
 }

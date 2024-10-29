@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.top, .content, .footer {
+    margin: 2rem 4rem;
+}
+
+.logo, .nav, .header, .side_bar, .body_area, .footer {
+    background-color: lightgray;
+    font-size: 20px;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.top {
+    overflow: hidden; /* Clear floats */
+}
+
+.logo {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.nav {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 3px 0px;
+    margin-bottom: 10px;
+}
+
+.header {
+    float: left;
+    clear: both;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 4rem;
+}
+
+.content {
+    overflow: hidden; /* Clear floats */
+}
+
+.side_bar {
+    float: left;
+    box-sizing: border-box;
+    width: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.body_area {
+    float: left;
+    box-sizing: border-box;
+    width: calc(73% - 2rem); /* 1rem is the margin between side_bar and body_area */
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.footer {
+    text-align: center;
+    clear: both; /* Clear floats */
+}
