@@ -1414,16 +1414,14 @@ li > .menu__container > .grid__controling .control_center--grid {
 {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  
   justify-content: space-between;
   padding: 10px;
   background: transparent;
   border-radius: 8px;
-  margin: 10px 0;
-  
   transition: 0.3s;
   position: relative;
-  top: 150px;
+  top: 100px;
 }
 .card {
  width: 300px;
